@@ -1,0 +1,2568 @@
+select table_name from information_schema.tables where table_schema = 'public' order by table_name;
+
+select name, generation_time, eng_value from tm_param_afs_20161016 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161017 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161018 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161019 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161020 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161021 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161022 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161023 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161024 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161025 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161026 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161027 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161028 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161029 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161030 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161031 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161229 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161230 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20161231 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170131 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170301 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170302 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170303 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170304 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170305 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170306 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170307 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170308 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170309 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170310 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170311 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170312 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170313 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170314 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170315 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170316 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170317 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170318 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170319 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170320 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170321 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170322 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170323 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170324 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170325 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170326 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170327 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170328 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170329 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170330 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170331 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170401 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170402 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170403 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170404 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170405 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170406 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170407 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170409 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170410 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170411 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170412 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170413 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170414 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170415 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170416 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170417 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170418 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170419 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170420 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170421 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170422 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170423 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170424 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170425 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170426 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170427 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170428 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170429 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170430 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170501 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170502 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170503 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170504 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170505 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170506 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170507 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170508 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170509 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170510 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170511 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170512 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170513 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170514 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170515 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170516 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170517 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170518 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170519 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170520 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170521 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170522 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170523 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170524 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170525 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170526 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170527 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170528 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170529 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170530 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170531 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170601 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170602 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170603 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170604 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170605 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170606 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170607 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170608 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170609 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170610 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170611 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170612 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170613 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170614 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170615 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170616 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170617 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170618 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170619 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170620 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170621 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170622 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170623 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170624 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170625 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170626 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170627 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170628 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170629 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170630 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170701 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170702 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170703 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170704 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170705 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170706 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170708 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170709 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170712 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170713 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170714 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170715 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170716 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170717 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170718 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170719 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170720 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170721 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170722 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170723 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170724 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170725 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170726 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170727 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170728 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170729 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170730 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170731 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170801 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170802 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170803 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170804 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170805 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170806 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170807 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170808 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170809 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170810 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170811 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170812 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170813 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170814 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170815 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170816 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170817 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170818 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170819 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170820 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170821 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170822 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170823 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170824 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170825 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170826 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170827 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170828 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170829 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170830 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170831 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170901 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170902 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170903 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170904 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170905 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170906 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170907 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170908 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170909 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170910 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170911 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170912 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170913 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170914 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170915 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170916 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170917 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170918 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170919 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170920 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170921 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170922 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170923 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170924 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170925 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170926 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170927 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170928 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170929 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20170930 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171001 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171002 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171003 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171004 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171005 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171006 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171007 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171008 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171009 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171010 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171011 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171012 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171013 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171014 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171015 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171016 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171017 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171018 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171019 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171021 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171022 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171023 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171024 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171025 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171026 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171027 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171028 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171029 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171030 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171031 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171229 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171230 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20171231 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180131 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180301 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180302 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180303 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180304 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180305 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180306 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180307 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180308 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180309 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180310 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180311 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180312 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180313 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180314 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180315 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180316 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180317 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180318 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180319 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180320 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180321 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180322 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180323 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180324 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180325 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180326 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180327 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180328 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180329 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180330 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180331 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180401 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180402 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180403 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180404 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180405 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180406 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180407 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180408 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180409 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180410 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180411 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180412 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180413 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180414 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180415 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180416 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180417 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180418 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180419 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180420 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180421 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180422 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180423 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180424 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180425 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180426 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180427 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180428 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180429 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180430 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180501 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180502 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180503 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180504 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180505 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180506 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180507 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180508 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180509 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180510 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180511 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180512 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180513 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180514 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180515 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180516 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180517 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180518 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180519 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180520 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180521 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180522 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180523 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180524 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180525 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180526 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180527 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180528 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180529 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180530 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180531 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180601 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180602 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180603 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180604 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180605 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180606 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180607 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180608 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180609 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180610 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180611 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180612 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180613 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180614 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180615 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180616 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180617 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180618 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180619 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180620 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180621 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180622 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180623 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180624 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180625 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180626 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180627 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180628 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180629 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180630 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180701 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180702 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180703 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180704 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180705 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180706 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180707 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180708 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180709 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180710 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180711 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180712 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180713 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180714 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180715 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180716 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180717 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180718 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180719 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180720 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180721 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180722 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180723 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180724 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180725 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180726 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180727 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180728 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180729 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180730 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180731 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180801 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180802 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180803 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180804 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180805 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180806 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180807 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180808 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180809 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180810 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180811 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180812 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180813 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180814 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180815 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180816 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180817 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180818 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180819 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180820 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180821 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180822 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180823 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180824 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180825 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180826 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180827 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180828 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180829 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180830 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180831 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180901 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180902 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180903 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180904 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180905 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180906 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180907 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180908 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180909 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180910 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180911 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180912 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180913 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180914 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180915 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180916 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180917 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180918 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180919 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180920 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180921 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180922 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180923 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180924 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180925 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180926 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180927 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180928 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180929 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20180930 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181001 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181002 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181003 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181004 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181005 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181006 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181007 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181008 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181009 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181010 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181011 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181012 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181013 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181014 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181015 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181016 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181017 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181018 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181019 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181020 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181021 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181022 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181023 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181024 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181025 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181026 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181027 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181028 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181029 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181030 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181031 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181229 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181230 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20181231 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190131 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190301 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190302 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190303 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190304 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190305 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190306 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190307 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190308 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190309 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190310 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190311 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190312 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190313 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190314 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190315 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190316 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190317 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190318 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190319 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190320 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190321 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190322 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190323 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190324 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190325 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190326 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190327 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190328 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190329 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190330 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190331 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190401 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190402 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190403 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190404 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190405 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190406 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190407 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190408 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190409 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190410 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190411 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190412 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190413 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190414 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190415 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190416 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190417 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190418 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190419 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190420 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190421 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190422 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190423 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190424 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190425 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190426 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190427 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190428 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190429 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190430 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190501 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190502 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190503 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190504 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190505 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190506 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190507 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190508 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190509 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190510 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190511 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190512 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190513 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190514 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190515 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190516 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190517 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190518 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190519 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190520 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190521 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190522 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190523 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190524 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190525 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190526 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190527 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190528 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190529 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190530 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190531 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190601 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190602 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190603 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190604 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190605 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190606 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190607 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190608 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190609 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190610 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190611 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190612 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190613 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190614 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190615 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190616 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190617 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190618 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190619 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190620 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190621 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190622 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190623 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190624 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190625 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190626 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190627 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190628 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190629 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190630 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190701 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190702 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190703 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190704 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190705 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190706 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190707 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190708 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190709 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190710 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190711 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190712 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190713 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190714 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190715 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190716 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190717 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190718 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190719 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190720 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190721 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190722 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190723 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190724 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190725 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190726 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190727 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190728 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190729 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190730 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190731 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190801 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190802 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190803 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190804 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190805 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190806 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190807 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190808 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190809 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190810 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190811 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190812 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190813 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190814 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190815 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190816 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190817 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190818 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190819 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190820 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190821 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190822 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190823 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190824 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190825 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190826 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190827 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190828 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190829 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190830 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190831 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190901 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190902 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190903 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190904 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190905 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190906 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190907 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190908 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190909 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190910 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190911 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190912 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190913 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190914 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190915 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190916 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190917 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190918 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190919 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190920 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190921 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190922 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190923 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190924 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190925 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190926 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190927 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190928 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190929 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20190930 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191001 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191002 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191003 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191004 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191005 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191006 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191007 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191008 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191009 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191010 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191011 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191012 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191013 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191014 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191015 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191016 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191017 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191018 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191019 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191020 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191021 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191022 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191023 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191024 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191025 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191026 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191027 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191028 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191029 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191030 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191031 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191229 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191230 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20191231 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200101 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200102 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200103 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200104 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200105 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200106 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200107 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200108 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200109 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200110 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200111 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200112 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200113 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200114 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200115 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200116 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200117 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200118 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200119 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200120 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200121 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200122 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200123 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200124 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200125 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200126 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200127 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200128 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200129 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200130 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200131 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200201 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200202 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200203 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200204 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200205 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200206 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200207 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200208 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200209 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200210 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200211 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200212 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200213 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200214 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200215 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200216 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200217 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200218 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200219 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200220 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200221 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200222 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200223 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200224 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200225 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200226 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200227 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200228 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200229 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200301 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200302 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200303 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200304 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200305 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200306 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200307 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200308 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200309 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200310 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200311 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200312 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200313 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200314 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200315 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200316 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200317 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200318 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200319 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200320 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200321 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200322 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200323 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200324 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200325 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200326 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200327 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200328 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200329 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200330 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200331 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200401 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200402 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200403 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200404 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200405 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200406 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200407 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200408 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200409 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200410 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200411 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200412 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200413 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200414 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200415 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200416 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200417 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200418 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200419 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200420 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200421 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200422 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200423 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200424 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200425 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200426 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200427 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200428 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200429 where name= 'TTH12A'
+UNION ALL
+select name, generation_time, eng_value from tm_param_afs_20200430 where name= 'TTH12A'
+;
